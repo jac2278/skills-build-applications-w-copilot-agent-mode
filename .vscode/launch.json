@@ -6,14 +6,14 @@
       "type": "python",
       "request": "launch",
       "program": "${workspaceFolder}/octofit-tracker/backend/manage.py",
-      "args": ["runserver", "0.0.0.0:8000"],
+      "args": ["runserver", "localhost:8000"],
       "django": true,
       "justMyCode": true,
-      "python": "${workspaceFolder}/octofit-tracker/backend/venv/bin/python",
+      "python": "${workspaceFolder}/.venv/bin/python",
       "env": {
-        "PYTHONPATH": "${workspaceFolder}/octofit-tracker/backend/venv/bin/python",
-        "VIRTUAL_ENV": "${workspaceFolder}/octofit-tracker/backend/venv",
-        "PATH": "${workspaceFolder}/octofit-tracker/backend/venv/bin:${env:PATH}"
+        "PYTHONPATH": "${workspaceFolder}/.venv/bin/python",
+        "VIRTUAL_ENV": "${workspaceFolder}/.venv",
+        "PATH": "${workspaceFolder}/.venv/bin:${env:PATH}"
       }
     },
     {
